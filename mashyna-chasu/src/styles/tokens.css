@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "Jiho Soft Bold";
+  src: url('/assets/fonts/jiho-soft-bold.otf') format('opentype');
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700 1000;
+}
+
+@font-face {
+  font-family: "Mulish";
+  src: url('/assets/fonts/mulish-regular.woff2') format('woff2');
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Mulish";
+  src: url('/assets/fonts/mulish-bold.woff2') format('woff2');
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Mulish";
+  src: url('/assets/fonts/mulish-extra-bold.woff2') format('woff2');
+  font-display: swap;
+  font-style: normal;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Mulish";
+  src: url('/assets/fonts/mulish-black.woff2') format('woff2');
+  font-display: swap;
+  font-style: normal;
+  font-weight: 900;
+}
+
+:root {
+  /* DarwinLand Brandbook 2026: базові та ідентифікаційні кольори. */
+  --brand-white: #fbfbfb;
+  --brand-black: #1f1f1f;
+  --brand-blue: #44b5e8;
+  --brand-lime: #b6ef17;
+  --brand-pink: #fb8ecb;
+  --brand-yellow: #faec1f;
+  --brand-blue-soft: #dff5ff;
+  --brand-blue-light: #b5e8ff;
+  --brand-lime-soft: #dbff78;
+  --brand-pink-soft: #ffadf7;
+  --brand-yellow-soft: #fff671;
+  --brand-gray: #ececec;
+  --ink: var(--brand-black);
+  --ink-soft: color-mix(in srgb, var(--brand-black), var(--brand-white) 28%);
+  --surface: var(--brand-white);
+  --font-display: "Jiho Soft Bold", "Arial Rounded MT Bold", sans-serif;
+  --font-body: "Mulish", Montserrat, "Segoe UI", Arial, sans-serif;
+}
